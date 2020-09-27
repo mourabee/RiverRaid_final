@@ -1,0 +1,54 @@
+﻿  Origem.cpp
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(208,22): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(208,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(221,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(230,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(239,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(300,23): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(300,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(303,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(313,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(322,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(331,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(340,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(349,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(357,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(365,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(398,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(407,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(432,21): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(440,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(459,53): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(462,30): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(534,32): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(534,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(536,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(553,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(568,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(589,21): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(589,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(661,22): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(661,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(662,27): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(676,19): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(676,16): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(770,23): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(770,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(773,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(782,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(790,25): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(798,25): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(817,23): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(817,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(821,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(830,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(838,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(846,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(855,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(863,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(905,21): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(905,15): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(1021,20): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(1305,18): warning C4553: '==': o resultado da expressão não usado; você pretendia que fosse '='?
+C:\Users\brend\source\repos\RiverRaid_final\RiverRaid_final\Origem.cpp(1825,41): warning C4305: 'argumento': truncamento de 'double' para 'GLclampf'
+  RiverRaid_final.vcxproj -> C:\Users\brend\source\repos\RiverRaid_final\Debug\RiverRaid_final.exe
