@@ -127,7 +127,7 @@ int main(int argc, char** argv) {
 	glutInitDisplayMode(GLUT_DOUBLE);
 	glutInitWindowSize(janela_largura, janela_altura);
 	glutInitWindowPosition(200, 100);
-	glutCreateWindow("Seaquest");
+	glutCreateWindow("RIVER RAID");
 	glutReshapeFunc(tela);
 	glutDisplayFunc(display);
 	glutKeyboardFunc(&keyboard);
@@ -307,7 +307,7 @@ void DesenhaPonte(int ponteX, int yAleatorioPonte) {
 	glVertex2f(-220, 104);
 	glEnd();
 
-	////	SUSTENTA«√O PONTE	////	
+	////	SUSTENTA√á√ÉO PONTE	////	
 	//SUPERIOR ESQUERDA
 	glBegin(GL_POLYGON);
 	glColor3f(0.545, 0.271, 0.075);
@@ -503,7 +503,7 @@ void DesenhaCenario() {
 }
 
 
-//POSICIONA A RECARGA DE COMBUSTIVEL EM UM X ALEAT”RIO
+//POSICIONA A RECARGA DE COMBUSTIVEL EM UM X ALEAT√ìRIO
 void colocarCombustivel() {
 
 	yAleatorioComb = posYcombustivel + yMovimentoComb;
@@ -512,9 +512,9 @@ void colocarCombustivel() {
 		yMovimentoComb = 0;
 		int aleatorio = (rand() % 10);
 
-		printf(">> ALEAT”RIO: %i", aleatorio);
+		printf(">> ALEAT√ìRIO: %i", aleatorio);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio % 2 == 0) {
 			posXcombustivel = (rand() % 100) - 180;
 
@@ -528,7 +528,7 @@ void colocarCombustivel() {
 
 
 void DesenhaCombustivel() {
-	//COMBUSTÕVEL
+	//COMBUST√çVEL
 
 	glPushMatrix();
 	glTranslatef(posXcombustivel, yAleatorioComb, 0);
@@ -581,7 +581,7 @@ void DesenhaCombustivel() {
 }
 
 
-//////////////////////////////			DESENHO AVI√O				////////////////////////////
+//////////////////////////////			DESENHO AVI√ÉO				////////////////////////////
 void DesenhaAviao() {
 
 	//CORPO
@@ -698,7 +698,7 @@ void colocarBarco() {
 		yMovimentoBarco[0] = 0;
 		int aleatorio3 = (rand() % 10);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio3 % 2 == 0) barcosX[0] = (rand() % 100) - 180;
 		else barcosX[0] = (rand() % 150);
 	}
@@ -723,7 +723,7 @@ void colocarBarco() {
 		yMovimentoBarco[1] = 0;
 		int aleatorio4 = (rand() % 10);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio4 % 2 == 0) barcosX[1] = (rand() % 100) - 180;
 		else barcosX[1] = (rand() % 150);
 	}
@@ -748,7 +748,7 @@ void colocarBarco() {
 		yMovimentoBarco[2] = 0;
 		int aleatorio5 = (rand() % 10);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio5 % 2 == 0) barcosX[2] = (rand() % 100) - 180;
 		else barcosX[2] = (rand() % 150);
 	}
@@ -867,7 +867,7 @@ void DesenhaHelicoptero(int helicX, int helicY) {
 	glVertex2f(50, 160);
 	glEnd();
 
-	//H…LICE
+	//H√âLICE
 	glBegin(GL_POLYGON);
 	glColor3f(1.000, 1.000, 0.000);
 	glVertex2f(60, 160);
@@ -876,7 +876,7 @@ void DesenhaHelicoptero(int helicX, int helicY) {
 	glVertex2f(60, 170);
 	glEnd();
 
-	//H…LICE
+	//H√âLICE
 	glBegin(GL_POLYGON);
 	glColor3f(1.000, 1.000, 0.000);
 	glVertex2f(45, 165);
@@ -893,7 +893,7 @@ void DesenhaHelicoptero(int helicX, int helicY) {
 }
 
 
-//////////////////////////////			DESENHA EXPLOS√O				////////////////////////////
+//////////////////////////////			DESENHA EXPLOS√ÉO				////////////////////////////
 void DesenhaExplosao() {
 
 	//PRIMEIRO POLIGONO
@@ -1029,7 +1029,7 @@ void DesenhaIcone(int x) {
 
 //////////////////////////////			ANIMAR combustivel				////////////////////////////
 void animarCombustivel() {
-	//ANIMAR A BARRA DE OXIG NIO
+	//ANIMAR A BARRA DE OXIG√äNIO
 	if (barraCombustivel < -30) barrafinal = true;
 	else barrafinal = false;
 
@@ -1056,10 +1056,10 @@ void animarCombustivel() {
 }
 
 
-//////////////////////////////			ANIMAR HELIC”PTERO				////////////////////////////
+//////////////////////////////			ANIMAR HELIC√ìPTERO				////////////////////////////
 void animarHelicoptero() {
 
-	//ANIMA«√O BARCO 00
+	//ANIMA√á√ÉO BARCO 00
 	if (helicoptero[0] == true) {
 		if (helicopteroEsquerda[0]) {
 			helicopteroX[0] += 5;
@@ -1075,7 +1075,7 @@ void animarHelicoptero() {
 			}
 		}
 	}
-	//ANIMA«√O BARCO 01
+	//ANIMA√á√ÉO BARCO 01
 	if (helicoptero[1] == true) {
 		if (helicopteroEsquerda[1]) {
 			helicopteroX[1] += 5;
@@ -1090,7 +1090,7 @@ void animarHelicoptero() {
 			}
 		}
 	}
-	//ANIMA«√O BARCO 02
+	//ANIMA√á√ÉO BARCO 02
 	if (helicoptero[2] == true) {
 		if (helicopteroEsquerda[2]) {
 			helicopteroX[2] += 5;
@@ -1127,7 +1127,7 @@ void colocarHelicoptero() {
 		yMovimentoHelic[0] = 0;
 		int aleatorio0 = (rand() % 10);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio0 % 2 == 0) helicopteroX[0] = (rand() % 100) - 180;
 		else helicopteroX[0] = (rand() % 150);
 	}
@@ -1138,7 +1138,7 @@ void colocarHelicoptero() {
 	}
 
 	////////////////////		HELICOPTERO 1		////////////////////		
-	//SE O HELICOPTERO 1 ESTA FORA ELE … CHAMADO
+	//SE O HELICOPTERO 1 ESTA FORA ELE √â CHAMADO
 	yAleatorioHelic[1] = helicopteroY[1] + yMovimentoHelic[1];
 
 	if (yAleatorioHelic[1] < -300) {
@@ -1153,7 +1153,7 @@ void colocarHelicoptero() {
 		yMovimentoHelic[1] = 0;
 		int aleatorio1 = (rand() % 10);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio1 % 2 == 0) helicopteroX[1] = (rand() % 100) - 180;
 		else helicopteroX[1] = (rand() % 150);
 	}
@@ -1164,7 +1164,7 @@ void colocarHelicoptero() {
 	}
 
 	////////////////////		HELICOPTERO 2		////////////////////		
-	//SE O HELICOPTERO 2 ESTA FORA ELE … CHAMADO
+	//SE O HELICOPTERO 2 ESTA FORA ELE √â CHAMADO
 	yAleatorioHelic[2] = helicopteroY[2] + yMovimentoHelic[2];
 
 	if (yAleatorioHelic[2] < -300) {
@@ -1180,7 +1180,7 @@ void colocarHelicoptero() {
 		yMovimentoHelic[2] = 0;
 		int aleatorio2 = (rand() % 10);
 
-		//SE GERAR NUMERO PAR A RECARGA DE COMBUSTÕVEL APARECER¡ NA ESQUERDA, SE ÕMPAR NA DIREITA
+		//SE GERAR NUMERO PAR A RECARGA DE COMBUST√çVEL APARECER√Å NA ESQUERDA, SE √çMPAR NA DIREITA
 		if (aleatorio2 % 2 == 0) helicopteroX[2] = (rand() % 100) - 180;
 		else helicopteroX[2] = (rand() % 150);
 	}
@@ -1197,7 +1197,7 @@ void colocarHelicoptero() {
 //////////////////////////////			ANIMAR BARCO				////////////////////////////
 void animarBarco() {
 
-	//ANIMA«√O BARCO 00
+	//ANIMA√á√ÉO BARCO 00
 	if (barcoEsquerda[0]) {
 		barcosX[0] += 5;
 		if (barcosX[0] >= 110) {
@@ -1211,7 +1211,7 @@ void animarBarco() {
 		}
 	}
 
-	//ANIMA«√O BARCO 01
+	//ANIMA√á√ÉO BARCO 01
 	if (barcoEsquerda[1]) {
 		barcosX[1] += 5;
 		if (barcosX[1] >= 110) {
@@ -1225,7 +1225,7 @@ void animarBarco() {
 		}
 	}
 
-	//ANIMA«√O BARCO 02
+	//ANIMA√á√ÉO BARCO 02
 	if (barcoEsquerda[2]) {
 		barcosX[2] += 5;
 		if (barcosX[2] >= 110) {
@@ -1239,7 +1239,7 @@ void animarBarco() {
 		}
 	}
 
-	//ANIMA«√O BARCO 03
+	//ANIMA√á√ÉO BARCO 03
 	if (barcoEsquerda[3]) {
 		barcosX[3] += 5;
 		if (barcosX[3] >= 100) {
@@ -1253,7 +1253,7 @@ void animarBarco() {
 		}
 	}
 
-	//ANIMA«√O BARCO 04
+	//ANIMA√á√ÉO BARCO 04
 	if (barcoEsquerda[4]) {
 		barcosX[4] += 5;
 		if (barcosX[4] >= 110) {
@@ -1267,7 +1267,7 @@ void animarBarco() {
 		}
 	}
 
-	//ANIMA«√O BARCO 05
+	//ANIMA√á√ÉO BARCO 05
 	if (barcoEsquerda[5]) {
 		barcosX[5] += 5;
 		if (barcosX[5] >= 100) {
@@ -1356,7 +1356,7 @@ void colisaoBarco() {
 void colisaoHelicoptero() {
 
 
-	//////////////////					HELIC”PTERO 00				////////////////////
+	//////////////////					HELIC√ìPTERO 00				////////////////////
 	if (posX >= helicopteroX[0] && posX <= helicopteroX[0] + 125 &&
 		posY > yAleatorioHelic[0] + 310 && posY < yAleatorioHelic[0] + 385) {
 		helicopteroEsquerda[0] = true;
@@ -1365,7 +1365,7 @@ void colisaoHelicoptero() {
 		explosaoSubmarino = true;
 	}
 
-	//////////////////					HELIC”PTERO 01				////////////////////	
+	//////////////////					HELIC√ìPTERO 01				////////////////////	
 	if (posX >= helicopteroX[1] + 10 && posX < helicopteroX[1] + 125 &&
 		posY > yAleatorioHelic[1] + 310 && posY < yAleatorioHelic[1] + 385) {
 		helicopteroEsquerda[1] = true;
@@ -1375,7 +1375,7 @@ void colisaoHelicoptero() {
 	}
 
 
-	//////////////////					HELIC”PTERO 02				////////////////////
+	//////////////////					HELIC√ìPTERO 02				////////////////////
 	if (posX >= helicopteroX[2] && posX <= helicopteroX[2] + 125 &&
 		posY > yAleatorioHelic[2] + 310 && posY < yAleatorioHelic[2] + 385) {
 		helicopteroEsquerda[2] = true;
@@ -1626,7 +1626,7 @@ void desenhar() {
 			DesenhaCombustivel();
 			glPopMatrix();
 			glColor3f(1, 1, 1);
-			DesenhaTexto((char*)" - Recarrega o combustÌvel", -80, -135, GLUT_BITMAP_8_BY_13);
+			DesenhaTexto((char*)" - Recarrega o combust√≠vel", -80, -135, GLUT_BITMAP_8_BY_13);
 
 			glColor3f(1, 1, 1);
 			DesenhaTexto((char*)" * Colidindo com as paredes morre.", -80, -200, GLUT_BITMAP_8_BY_13);
@@ -1695,7 +1695,7 @@ void animacao(int valor) {
 
 	}
 	else {
-		//SE O JOGO EST¡ ATIVO
+		//SE O JOGO EST√Å ATIVO
 		if (rodando) {
 
 			animarCombustivel();
@@ -1716,7 +1716,7 @@ void animacao(int valor) {
 
 		}
 
-		//QUANDO O AVI√O MORRE
+		//QUANDO O AVI√ÉO MORRE
 		if (explosaoSubmarino == true) {
 			rodando = false;
 			if (cor == false) cor = true;
@@ -1750,13 +1750,13 @@ void keyboard(unsigned char tecla, int x, int y) {
 		}
 		if (tecla == 'a' || tecla == 'A') {
 			posX -= 20;				//SE DESLOCA PARA OS LADOS
-			tiroX -= 20;   //// faz o tiro acompanhar o avi„o
+			tiroX -= 20;   //// faz o tiro acompanhar o avi√£o
 
 
 		}
 		if (tecla == 'd' || tecla == 'D') {
 			posX += 20;			 // SE DESLOCA PARA OS LADOS
-			tiroX += 20;  //// faz o tiro acompanhar o avi„o
+			tiroX += 20;  //// faz o tiro acompanhar o avi√£o
 		}
 	}
 
